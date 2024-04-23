@@ -52,7 +52,7 @@
 		flex: 1;
 		transform: rotateX(-180deg);
 
-		@media (min-width: $viewport-medium) {
+		@media (min-width: 768px) {
 			transform: rotateY(-180deg);
 			padding-top: 50px;
 		}
@@ -65,7 +65,7 @@
 			height: 50%;
 			padding: 6px 12px 12px;
 
-			@media (min-width: $viewport-medium) {
+			@media (min-width: 768px) {
 				height: 36%;
 				padding: 12px 24px 24px;
 			}
@@ -78,7 +78,7 @@
 			border-bottom: 2px solid color(white);
 			padding: 4px 8px;
 
-			@media (min-width: $viewport-medium) {
+			@media (min-width: 768px) {
 				padding: 8px;
 			}
 		}
@@ -106,7 +106,7 @@
 					padding: 15px;
 					border: 4px solid color(black);
 
-					@media (min-width: $viewport-medium) {
+					@media (min-width: 768px) {
 						width: 160px;
 					}
 				}

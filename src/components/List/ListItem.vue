@@ -72,7 +72,7 @@
 				align-self: flex-start;
 				font-size: 14px;
 
-				@media (min-width: $viewport-medium) {
+				@media (min-width: 768px) {
 					font-size: 16px;
 				}
 
@@ -91,7 +91,7 @@
 				display: flex;
 				font-size: 12px;
 
-				@media (min-width: $viewport-medium) {
+				@media (min-width: 768px) {
 					font-size: 14px;
 				}
 
@@ -111,7 +111,7 @@
 			height: 60px;
 			margin-right: 4px;
 
-			@media (min-width: $viewport-medium) {
+			@media (min-width: 768px) {
 				width: 80px;
 				height: 80px;
 			}

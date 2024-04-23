@@ -79,7 +79,7 @@
 			display: none;
 		}
 
-		@media (min-width: $viewport-medium) {
+		@media (min-width: 768px) {
 			max-height: 72%;
 			border: 20px solid color(white);
 		}

@@ -19,7 +19,7 @@
 	.content {
 		width: 100%;
 
-		@media (min-width: $viewport-medium) {
+		@media (min-width: 768px) {
 			margin-top: 50px;
 		}
 	}

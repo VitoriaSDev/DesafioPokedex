@@ -33,7 +33,7 @@
 		max-width: 960px;
 		height: 100%;
 
-		@media (min-width: $viewport-medium) {
+		@media (min-width: 768px) {
 			max-height: 700px;
 			flex-direction: row;
 		}
@@ -46,7 +46,7 @@
 			perspective: 1700px;
 			transform-style: preserve-3d;
 
-			@media (min-width: $viewport-medium) {
+			@media (min-width: 768px) {
 				height: 100%;
 			}
 		}

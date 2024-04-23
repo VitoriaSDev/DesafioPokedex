@@ -26,8 +26,6 @@
 </script>
 
 <style lang="scss" scoped>
-	$triangle-size: 30px;
-	$triangle-color: color(yellow);
 
 	.panel {
 		display: flex;
@@ -36,7 +34,7 @@
 		top: 40px;
 		z-index: 1;
 
-		@media (min-width: $viewport-medium) {
+		@media (min-width: 768px) {
 			width: calc(50% - 20px);
 			top: 0;
 		}
@@ -54,7 +52,7 @@
 			transform: translateY(calc(-100% - 40px)) rotateX(0deg);
 			transform-origin: left bottom;
 
-			@media (min-width: $viewport-medium) {
+			@media (min-width: 768px) {
 				transform: translateX(calc(-100% - 40px)) rotateY(0deg);
 				transform-origin: right top;
 			}
@@ -65,7 +63,7 @@
 			.panel--back {
 				transform: rotateX(-180deg) translateY(100%);
 
-				@media (min-width: $viewport-medium) {
+				@media (min-width: 768px) {
 					transform: translateX(-100%) rotateY(180deg);
 				}
 			}
@@ -77,22 +75,22 @@
 			backface-visibility: hidden;
 			cursor: pointer;
 
-			@media (min-width: $viewport-medium) {
+			@media (min-width: 768px) {
 				align-items: center;
 				justify-content: flex-start;
 			}
 
 			.back--triangle {
-				border-top: $triangle-size solid $triangle-color;
-				border-right: $triangle-size solid transparent;
-				border-left: $triangle-size solid transparent;
+				border-top: 30px solid yellow;
+				border-right: 30px solid transparent;
+				border-left: 30px solid transparent;
 				width: 0;
 				height: 0;
 
-				@media (min-width: $viewport-medium) {
-					border-top: $triangle-size solid transparent;
-					border-left: $triangle-size solid $triangle-color;
-					border-bottom: $triangle-size solid transparent;
+				@media (min-width: 768px) {
+					border-top: 30px solid transparent;
+					border-left: 30px solid yellow;
+					border-bottom: 30px solid transparent;
 				}
 			}
 		}
